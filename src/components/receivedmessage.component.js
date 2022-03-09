@@ -2,14 +2,14 @@ import React from 'react';
 import { View, Text } from 'react-native-ui-lib';
 import { StyleSheet } from 'react-native';
 
-export const ReceivedMessage = ({message}) => {
+export const ReceivedMessage = ({ message }) => {
     return (
         <View style={{
             backgroundColor: "#dedede",
             padding: 10,
+            marginLeft: '5%',
             borderRadius: 5,
             marginTop: 5,
-            marginLeft: "5%",
             marginBottom: 5,
             maxWidth: '50%',
             alignSelf: 'flex-start',

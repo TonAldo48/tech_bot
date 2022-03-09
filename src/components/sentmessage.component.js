@@ -1,7 +1,7 @@
 import { View, Text, Colors } from 'react-native-ui-lib';
 import { StyleSheet } from 'react-native';
 
-export const SentMessage = ({message}) => {
+export const SentMessage = ({ message }) => {
     return (
         <View style={{
             backgroundColor: Colors.violet10,
